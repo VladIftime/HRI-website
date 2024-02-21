@@ -1,4 +1,5 @@
 <script lang="ts">
+  export const prerender = true
   import '../app.css'
   import ScrollToTop from '$lib/components/ScrollToTop.svelte'
 </script>
