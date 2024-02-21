@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose h2 {
+  color: #374151;
+  font-size: 1.25rem; /* Tailwind text-lg */
+  font-weight: 700; /* Tailwind font-bold */
+  line-height: 1.6; /* Tailwind leading-tight */
+  margin-top: 1.6rem; /* Tailwind mt-6 */
+  margin-bottom: 0.8rem; /* Tailwind mb-4 */
+}
+
+.prose h3 {
+  color: #374151;
+  font-size: 1.125rem; /* Tailwind text-base */
+  font-weight: 700; /* Tailwind font-bold */
+  line-height: 1.6; /* Tailwind leading-tight */
+  margin-top: 1.6rem; /* Tailwind mt-6 */
+  margin-bottom: 0.8rem; /* Tailwind mb-4 */
+}
