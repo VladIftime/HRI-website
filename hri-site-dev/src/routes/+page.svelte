@@ -1,4 +1,6 @@
 <script>
+  import { base } from '$app/paths'
+
   // Detailed course information
   let course = {
     title: 'Human-Robot Interaction Social Robots',
@@ -73,7 +75,7 @@
     <div class="flex-grow card bg-base ">
       <h3 class="text-2xl font-bold text-center m-3">Learning outcomes</h3>
 
-      <div class="grid md:grid-cols-2 gap-1 sm:grid-cols-1 ">
+      <div class="grid grid-cols-1 gap-1 ">
         {#each course.learningOutcomes as outcome}
           <div class="card bg-neutral text-neutral-content shadow-xl m-2 ">
             <div class="card-body ">
@@ -184,7 +186,9 @@
           </a>
         </p>
         <div class="card-actions justify-center">
-          <a href="/literature" class="btn btn-primary">Literature</a>
+          <a href="{base}/literature" class="btn bg-accent text-accent-content">
+            Literature
+          </a>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@
         <a
           href="/PDFs/AlphaMiniIQuickstart.pdf"
           target="_blank"
-          class="btn btn-primary">
+          class="btn bg-accent text-accent-content">
           Open PDF
         </a>
       </div>
@@ -46,7 +46,7 @@
         <a
           href="PDFs/Manual Advanced Programming.pdf"
           target="_blank"
-          class="btn btn-primary">
+          class="btn bg-accent text-accent-content">
           Open PDF
         </a>
       </div>
@@ -69,7 +69,7 @@
         <a
           href="/PDFs/Alpha Mini UBIs.pdf"
           target="_blank"
-          class="btn btn-primary">
+          class="btn bg-accent text-accent-content">
           Open PDF
         </a>
       </div>

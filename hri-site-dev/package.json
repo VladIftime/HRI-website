@@ -8,14 +8,17 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-  		"deploy": "npx gh-pages -d dist"	},
+		"deploy": "npx gh-pages -d build"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/node": "^20.11.19",
 		"autoprefixer": "^10.4.17",
+		"gh-pages": "^6.1.1",
 		"pdfjs-dist": "^4.0.379",
 		"postcss": "^8.4.35",
 		"svelte": "^4.2.7",
@@ -28,10 +31,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-static": "^3.0.1",
 		"clsx": "^2.1.0",
 		"daisyui": "^4.7.2",
 		"framer-motion": "^11.0.5",
+		"postcss-cli": "^11.0.0",
 		"svelte-pdf-simple": "^2.0.0",
 		"tailwind-merge": "^2.2.1"
 	}
