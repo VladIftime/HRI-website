@@ -1,6 +1,7 @@
 <script lang="ts">
   import '../app.css'
   import ScrollToTop from '$lib/components/ScrollToTop.svelte'
+  import { base } from '$app/paths'
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,46 +28,46 @@
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100
         rounded-box w-52">
         <li>
-          <a href="/">Home</a>
+          <a href="{base}/">Home</a>
         </li>
         <li>
           <a>Documentation</a>
           <ul class="p-2">
             <li>
-              <a href="/literature">Literature</a>
+              <a href="{base}/literature">Literature</a>
             </li>
             <li>
-              <a href="/guides">Guides</a>
+              <a href="{base}/guides">Guides</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="/examples">Examples</a>
+          <a href="{base}/examples">Examples</a>
         </li>
       </ul>
     </div>
-    <a href="/" class="btn btn-ghost text-xl">HumanRobotInteraction</a>
+    <a href="{base}/" class="btn btn-ghost text-xl">HumanRobotInteraction</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li>
-        <a href="/">Home</a>
+        <a href="{base}/">Home</a>
       </li>
       <li>
         <details>
           <summary>Documentation</summary>
           <ul class="p-2">
             <li>
-              <a href="/literature">Literature</a>
+              <a href="{base}/literature">Literature</a>
             </li>
             <li>
-              <a href="/guides">Guides</a>
+              <a href="{base}/guides">Guides</a>
             </li>
           </ul>
         </details>
       </li>
       <li>
-        <a href="/examples">Examples</a>
+        <a href="{base}/examples">Examples</a>
       </li>
     </ul>
   </div>
