@@ -1,10 +1,10 @@
-import{s as u,n as i}from"../chunks/scheduler.BfJEPAwo.js";import{S as f,i as g,e as c,s as k,c as p,g as d,f as w,h as m,j as r,d as s}from"../chunks/index.5caIvhhX.js";function v(b){let t,l=`<h2 class="text-3xl font-bold text-center pb-5">Literature Overview</h2> <p class="text-center">A list of scientific articles to be read prior to the lectures will be given
+import{s as u,n as i}from"../chunks/scheduler.BfJEPAwo.js";import{S as f,i as g,e as c,s as k,c as d,g as p,f as w,h as m,j as r,d as s}from"../chunks/index.KRk6gBHG.js";function v(b){let t,l=`<h2 class="text-3xl font-bold text-center pb-5">Course Literature Overview</h2> <p class="text-center">A list of scientific articles to be read prior to the lectures will be given
     for each week. In addition, we will make use of chapters 4, 7, 8 and 10 from
     the book Human Robot Interaction by Christoph Bartneck, Tony Belpaeme,
-    Friederike Eyssel, Takayuki Kanda, Merel Keijsers, and Selma
-    <a href="http://www.cambridge.org/9781108735407" target="_blank" class="link">Sabanovic. ISBN: 9781108735407</a> <br/>
+    Friederike Eyssel, Takayuki Kanda, Merel Keijsers, and Selma Sabanovic
+    <a href="http://www.cambridge.org/9781108735407" target="_blank" class="link">ISBN: 9781108735407</a> <br/>
     Individual chapters are available online at
-    <a href="https://www.human-robot-interaction.org" target="_blank" class="link">https://www.human-robot-interaction.org</a></p>`,o,e,h=`<table class="table w-full bg-base-100"><thead><tr><th>Week</th> <th>Reading Material</th></tr></thead> <tbody><tr><th>1</th> <td>Breazeal, C., Dautenhahn, K., &amp; Kanda, T. (2016). Social robotics.
+    <a href="https://www.human-robot-interaction.org" target="_blank" class="link">https://www.human-robot-interaction.org</a></p>`,o,a,h=`<table class="table w-full bg-base-100"><thead><tr><th>Week</th> <th>Reading Material</th></tr></thead> <tbody><tr><th>1</th> <td>Breazeal, C., Dautenhahn, K., &amp; Kanda, T. (2016). Social robotics.
           Springer handbook of robotics, 1935-1972. (except section 72.9)
           <a href="https://link.springer.com/chapter/10.1007/978-3-319-32552-1_72" class="link">Link</a></td></tr> <tr class="hover"><th>2</th> <td>Khoo, W., Hsu, L. J., Amon, K. J., Chakilam, P. V., Chen, W. C.,
           Kaufman, Z., ... &amp; Sabanović, S. (2023, March). Spill the Tea: When
@@ -47,4 +47,4 @@ import{s as u,n as i}from"../chunks/scheduler.BfJEPAwo.js";import{S as f,i as g,
           AND/OR Read:
           <br/>
           Sharkey, A., &amp; Sharkey, N. (2011). Children, the elderly, and
-          interactive robots. IEEE Robotics &amp; Automation Magazine, 18(1), 32-38.</td></tr></tbody></table>`;return{c(){t=c("div"),t.innerHTML=l,o=k(),e=c("div"),e.innerHTML=h,this.h()},l(a){t=p(a,"DIV",{class:!0,"data-svelte-h":!0}),d(t)!=="svelte-94cuws"&&(t.innerHTML=l),o=w(a),e=p(a,"DIV",{class:!0,"data-svelte-h":!0}),d(e)!=="svelte-1wrx9n"&&(e.innerHTML=h),this.h()},h(){m(t,"class","bg-base-100 p-10 justify-center"),m(e,"class","overflow-x-auto")},m(a,n){r(a,t,n),r(a,o,n),r(a,e,n)},p:i,i,o:i,d(a){a&&(s(t),s(o),s(e))}}}class C extends f{constructor(t){super(),g(this,t,null,v,u,{})}}export{C as component};
+          interactive robots. IEEE Robotics &amp; Automation Magazine, 18(1), 32-38.</td></tr></tbody></table>`;return{c(){t=c("div"),t.innerHTML=l,o=k(),a=c("div"),a.innerHTML=h,this.h()},l(e){t=d(e,"DIV",{class:!0,"data-svelte-h":!0}),p(t)!=="svelte-1dkflu9"&&(t.innerHTML=l),o=w(e),a=d(e,"DIV",{class:!0,"data-svelte-h":!0}),p(a)!=="svelte-1wrx9n"&&(a.innerHTML=h),this.h()},h(){m(t,"class","bg-base-100 p-10 justify-center"),m(a,"class","overflow-x-auto")},m(e,n){r(e,t,n),r(e,o,n),r(e,a,n)},p:i,i,o:i,d(e){e&&(s(t),s(o),s(a))}}}class C extends f{constructor(t){super(),g(this,t,null,v,u,{})}}export{C as component};
