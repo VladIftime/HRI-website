@@ -31,22 +31,17 @@
           <a href="{base}/">Home</a>
         </li>
         <li>
-          <a>Documentation</a>
-          <ul class="p-2">
-            <li>
-              <a href="{base}/literature">Literature</a>
-            </li>
-            <li>
-              <a href="{base}/guides">Guides</a>
-            </li>
-          </ul>
+          <a href="{base}/literature">Course Literature</a>
         </li>
         <li>
-          <a href="{base}/examples">Examples</a>
+          <a href="{base}/guides">Manuals</a>
+        </li>
+        <li>
+          <a href="{base}/examples">Code Examples</a>
         </li>
       </ul>
     </div>
-    <a href="{base}/" class="btn btn-ghost text-xl">HumanRobotInteraction</a>
+    <a href="{base}/" class="btn btn-ghost text-xl">SocialRoboticsLab</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
@@ -54,20 +49,14 @@
         <a href="{base}/">Home</a>
       </li>
       <li>
-        <details>
-          <summary>Documentation</summary>
-          <ul class="p-2">
-            <li>
-              <a href="{base}/literature">Literature</a>
-            </li>
-            <li>
-              <a href="{base}/guides">Guides</a>
-            </li>
-          </ul>
-        </details>
+        <a href="{base}/literature">Course Literature</a>
       </li>
       <li>
-        <a href="{base}/examples">Examples</a>
+        <a href="{base}/guides">Manuals</a>
+      </li>
+
+      <li>
+        <a href="{base}/examples">Code AlphaMini</a>
       </li>
     </ul>
   </div>
@@ -79,21 +68,39 @@
 <slot />
 
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
-  <nav class="grid grid-flow-col gap-4">
-    <a
-      href="https://ocasys.rug.nl/current/catalog/course/WMAI027-05"
-      class="link link-hover">
-      Ocasys
-    </a>
-    <a
-      href="https://rooster.rug.nl/#/en/current/schedule/course-WMAI027-05/timeRange=all"
-      class="link link-hover">
-      Rooster
-    </a>
-    <a href="https://www.rug.nl/staff/p.a.vogt/" class="link link-hover">
-      Coordinator
-    </a>
-  </nav>
+  <!-- First row of links -->
+  <div>
+    <nav class="grid grid-flow-col gap-4">
+      <a
+        href="https://ocasys.rug.nl/current/catalog/course/WMAI027-05"
+        class="link link-hover">
+        Ocasys
+      </a>
+      <a
+        href="https://rooster.rug.nl/#/en/current/schedule/course-WMAI027-05/timeRange=all"
+        class="link link-hover">
+        Rooster
+      </a>
+      <a href="https://www.rug.nl/staff/p.a.vogt/" class="link link-hover">
+        Coordinator
+      </a>
+    </nav>
+  </div>
+  <!-- Second row of links -->
+  <div>
+    <nav class="grid grid-flow-col gap-4">
+      <a
+        href="https://brightspace.rug.nl/d2l/home/273084"
+        class="link link-hover">
+        Brightspace: Human-Robot Interaction Social Robots
+      </a>
+      <a
+        href="https://brightspace.rug.nl/d2l/home/271846"
+        class="link link-hover">
+        Brightspace: Social Robotics Practical
+      </a>
+    </nav>
+  </div>
 
   <aside>
     <p>

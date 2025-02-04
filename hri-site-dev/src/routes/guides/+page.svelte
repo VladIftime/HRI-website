@@ -1,5 +1,5 @@
 <script lang="ts">
-
+  import { base } from '$app/paths'
 </script>
 
 <div class="container mx-auto grid grid-cols-2 gap-8">
@@ -19,7 +19,7 @@
       </p>
       <div class="card-actions justify-end">
         <a
-          href="/PDFs/AlphaMiniIQuickstart.pdf"
+          href="{base}/PDFs/AlphaMiniIQuickstart.pdf"
           target="_blank"
           class="btn bg-accent text-accent-content">
           Open PDF
@@ -44,7 +44,7 @@
       </p>
       <div class="card-actions justify-end">
         <a
-          href="PDFs/Manual Advanced Programming.pdf"
+          href="{base}/PDFs/Manual Advanced Programming.pdf"
           target="_blank"
           class="btn bg-accent text-accent-content">
           Open PDF
@@ -67,7 +67,7 @@
       </p>
       <div class="card-actions justify-end">
         <a
-          href="/PDFs/Alpha Mini UBIs.pdf"
+          href="{base}/PDFs/Alpha Mini UBIs.pdf"
           target="_blank"
           class="btn bg-accent text-accent-content">
           Open PDF

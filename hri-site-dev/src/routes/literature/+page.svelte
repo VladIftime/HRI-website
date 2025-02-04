@@ -4,19 +4,25 @@
 
 <div class=" bg-base-100 p-10 justify-center">
 
-  <h2 class="text-3xl font-bold text-center pb-5">Literature Overview</h2>
+  <h2 class="text-3xl font-bold text-center pb-5">Course Literature Overview</h2>
 
   <p class=" text-center">
     A list of scientific articles to be read prior to the lectures will be given
     for each week. In addition, we will make use of chapters 4, 7, 8 and 10 from
     the book Human Robot Interaction by Christoph Bartneck, Tony Belpaeme,
-    Friederike Eyssel, Takayuki Kanda, Merel Keijsers, and Selma
-    <a href="http://www.cambridge.org/9781108735407" target="_blank" class="link">
-      Sabanovic. ISBN: 9781108735407
+    Friederike Eyssel, Takayuki Kanda, Merel Keijsers, and Selma Sabanovic
+    <a
+      href="http://www.cambridge.org/9781108735407"
+      target="_blank"
+      class="link">
+      ISBN: 9781108735407
     </a>
     <br />
     Individual chapters are available online at
-    <a href="https://www.human-robot-interaction.org" target="_blank" class="link">
+    <a
+      href="https://www.human-robot-interaction.org"
+      target="_blank"
+      class="link">
       https://www.human-robot-interaction.org
     </a>
   </p>
